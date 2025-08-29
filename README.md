@@ -1,19 +1,21 @@
-# D&D AI Conversation System
+# AI Conversation System
 
-A Python application that facilitates interactive Dungeons & Dragons conversations between multiple AI characters and a human Dungeon Master (DM).
+A Python application that facilitates interactiveconversations between multiple AI characters and a human.
+
+It is currently hardcoded for Dungeons and Dragons but is planned to be modified to be applicable to any scenario
 
 ## Features
 
 - **Multi-Character AI System**: Supports up to 4 AI characters, each with unique personalities and roles
 - **Real-time Conversation**: Continuous conversation loop where AI characters respond to each other and the DM
 - **Interactive Input**: Real-time user input handling with pause/resume functionality
-- **Character Personalities**: Pre-defined D&D characters with distinct roles (Druid, Ranger, Fighter, Cleric)
+- **Character Personalities**: Pre-defined roles
 - **Queue-based Messaging**: Each AI model maintains its own message queue for conversation context
 - **Timeout Handling**: Automatic conversation termination after periods of inactivity
 
 ## Characters
 
-The system includes four pre-configured D&D characters:
+The system *currently* includes four pre-configured D&D characters:
 
 1. **Sapphira** (Kalina Eldaran) - Elf Druid: Wise, nature-connected, sometimes aloof
 2. **Jasper** (Elrion Eldaran) - Elf Ranger: Skilled tracker, Kalina's brother, group scout
